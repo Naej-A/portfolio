@@ -1,11 +1,10 @@
 <script setup>
-import Navigation from "./components/Navigation.vue";
 import Header from "./components/header.vue";
 
 </script>
 
 <template id="app">
-  <Header></Header>
+  <Header class="bg-primary"></Header>
 </template>
 
 <style>
