@@ -1,7 +1,7 @@
 <template>
   <div class="navigation flex flex-col">
     <div class="flex">
-      <img src="../assets/menu_icon.svg" alt="oui">
+      <img src="../assets/menu_icon.svg"  alt="oui">
       <p class="ml-1">Menu</p>
     </div>
     <ligneMenu class="self-start" link=""> Mes Projets </ligneMenu>
