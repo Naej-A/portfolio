@@ -1,18 +1,20 @@
 <script setup>
 import Header from "./components/header.vue";
-import VueRellax from 'vue-rellax'
-
+import DescriptionProjet from "./components/Description-Projet.vue";
+import VueRellax from 'vue-rellax';
 </script>
 
 <template id="app">
-  <div class="rellax">
+  <div>
     <Header class="bg-primary "></Header>
-    <body class="min-h-screen ">
-      oui on est là
-    </body>
+
+    <div class="min-h-screen flex flex-col bg-primary border-action border-4">
+      <description-projet ></description-projet>
+      <description-projet ></description-projet>
+      <description-projet ></description-projet>
+    </div>
   </div>
 </template>
-
 
 <style>
 #app {

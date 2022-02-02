@@ -4,7 +4,7 @@
     <div class="grow w-1 text-6xl flex flex-col w-full justify-center">
 <!--      block avec mes informations     -->
       <div class="w-2/3 text-secondary self-center ">
-        <p class="">Antoine JEAN</p>
+        <p class="text-8xl">Antoine JEAN</p>
         <p class=" px-4 text-secondary/25 inline-block">Developpeur</p>
         <p class=" px-4 text-secondary/60 inline-block">Full stack</p>
       </div>
@@ -13,6 +13,9 @@
 </template>
 
 <script>
+import VueRellax from "vue-rellax";
+
+
 import Navigation from "./Navigation.vue";
 export default {
   name: "header",
