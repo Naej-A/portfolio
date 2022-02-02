@@ -1,9 +1,10 @@
 <template>
   <div class="flex justify-self-center
               w-5/6   m-auto mt-20
-              border-solid border-4 bg-action-lacerer rounded-xl ">
+              bg-action-lacerer bg-repeat
+              border-solid border-4  rounded-xl ">
     <div class="flex place-items-center {{this.cssDirection}}
-                hover:border-solid hover:border-action hover:border-2 bg-secondary hover:rounded-xl
+                hover:border-solid hover:border-action hover:border-4 bg-secondary hover:rounded-xl
                 hover:-translate-y-4 hover:-translate-x-4 duration-150">
       <div class="w-7/12">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
