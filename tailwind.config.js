@@ -10,6 +10,10 @@ module.exports = {
             "secondary": "#F7F7FF",
             "action": "#EF5361"
         },
+        backgroundImage: {
+            'projet-1-presentation': "url('public/Pac-man/choix_competence.png')",
+            'action-lacerer': "url('public/action-backgroud.png')",
+        },
     },
   },
   plugins: [],

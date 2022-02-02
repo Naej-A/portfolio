@@ -6,12 +6,18 @@ import VueRellax from 'vue-rellax';
 
 <template id="app">
   <div>
-    <Header class="bg-primary "></Header>
+    <Header class=""></Header>
 
-    <div class="min-h-screen flex flex-col bg-primary border-action border-4">
+    <div class="
+                flex flex-col
+                bg-primary">
+      <description-projet :change-base-direction="true" ></description-projet>
       <description-projet ></description-projet>
       <description-projet ></description-projet>
-      <description-projet ></description-projet>
+    </div>
+
+    <div class="h-5/6">
+      oui
     </div>
   </div>
 </template>
