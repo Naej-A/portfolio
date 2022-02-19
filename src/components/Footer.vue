@@ -3,9 +3,8 @@
   <div class="relative min-h-[40vh] max-h-[50vh]
               flex flex-col justify-around
               overflow-hidden  bg-primary ">
-    <div class="
-                absolute  z-0 object-contain
-                -left-1/2 -bottom-[185vw] object-center
+    <div class="absolute  z-0 object-contain
+                -left-1/2 top-52 md:top-40  lg:top-32  object-center
                 bg-secondary footer--background--rond">
 
     </div>

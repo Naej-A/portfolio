@@ -7,30 +7,16 @@ import BulleCompetence from  "./components/Bulle-Competence.vue";
 
 import VueRellax from 'vue-rellax';
 
+import Main from "./Main.vue";
+
 </script>
 
 
 <template id="app">
+  <Main></Main>
 
-  <div>
-    <HeaderComponent class=""></HeaderComponent>
-
-    <BodyComponent></BodyComponent>
-
-
-
-<!--    <div class="-->
-<!--                flex flex-col-->
-<!--                bg-primary">-->
-<!--      <description-projet :change-base-direction="true" ></description-projet>-->
-<!--      <description-projet ></description-projet>-->
-<!--      <description-projet ></description-projet>-->
-<!--    </div>-->
-
-    <Footer></Footer>
-
-  </div>
 </template>
+
 
 <style>
 img {

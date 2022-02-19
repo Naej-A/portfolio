@@ -1,6 +1,8 @@
 <template>
 
-  <div class="min-h-screen bg-primary">
+  <div class="min-h-[125vh] bg-primary">
+<!--    dans l'avenir j'aimerais faire une arbre avec mes compétences qui se dépli petit à petit-->
+    <h1 class=" text-secondary text-8xl">mes compétence</h1>
 <!--    <BulleCompetence nom-image="c_logo.png" ></BulleCompetence>-->
   </div>
 
