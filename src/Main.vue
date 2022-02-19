@@ -1,7 +1,7 @@
 <template>
-  <div v-if="loadMainPage" @changeItemToOrderEvent="change($event)">
+  <div v-if="loadMainPage">
     <HeaderComponent class=""></HeaderComponent>
-    <BodyComponent></BodyComponent>
+    <BodyComponent  @changeComponentToShowEvent="changeComponentToShow($event)"></BodyComponent>
     <Footer></Footer>
   </div>
 
@@ -38,14 +38,25 @@ export default {
   },
   data : () => {
     return{
-      loadMainPage : false,
-      loadProject1 : true,
+      loadMainPage : true,
+      loadProject1 : false,
       loadProject2 : false,
       loadProject3 : false,
     }
   },
   methods:{
-
+    changeComponentToShow(event){
+      this.loadMainPage = false
+      if (event.number === 1){
+        this.loadProject1 = true
+      }
+      else if (event.number === 2){
+        this.loadProject2 = true
+      }
+      else if (event.number === 3){
+        this.loadProject3 = true
+      }
+    }
   }
 }
 </script>

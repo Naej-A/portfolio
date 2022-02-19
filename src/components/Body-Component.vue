@@ -15,9 +15,15 @@
                 min-h-screen
                 m-16
                 self-center">
-      <ObjetGrilleComponent class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"></ObjetGrilleComponent>
-      <ObjetGrilleComponent class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"></ObjetGrilleComponent>
-      <ObjetGrilleComponent class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"></ObjetGrilleComponent>
+      <ObjetGrilleComponent
+          @click="emitChangeComponentToShowEvent(1)"
+          class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"></ObjetGrilleComponent>
+      <ObjetGrilleComponent
+          @click="emitChangeComponentToShowEvent(2)"
+          class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"></ObjetGrilleComponent>
+      <ObjetGrilleComponent
+          @click="emitChangeComponentToShowEvent(3)"
+          class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"></ObjetGrilleComponent>
     </div>
   </div>
 
@@ -35,7 +41,13 @@ export default {
     DescriptionProjet,
     ObjetGrilleComponent,
     BulleCompetence
-  }
+  },
+  methods:{
+    emitChangeComponentToShowEvent(number){
+      this.$emit("changeComponentToShowEvent", {number})
+    }
+  },
+  emits:["changeComponentToShowEvent"],
 }
 </script>
 
