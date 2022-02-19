@@ -1,13 +1,24 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-primary ">
+  <div class="flex flex-col min-h-screen bg-primary justify-around ">
     <Navigation class="ml-5 mt-5"></Navigation>
-    <div class="flex flex-col grow w-1 text-6xl w-full justify-around ">
+    <div class="flex flex-col grow  self-center
+                text-6xl w-full justify-around ">
 <!--      block avec mes informations     -->
-        <div class=" w-2/3 text-secondary self-center ">
+        <div class=" w-2/3 text-secondary self-center flex flex-col ">
           <p class=" text-8xl ">Antoine JEAN</p>
-          <p class=" px-4 text-secondary/25 inline-block ">Developpeur</p>
-          <p class=" px-4 text-secondary/60 inline-block ">Full stack</p>
+          <div>
+            <p class=" px-4 text-secondary/25 inline-block ">Developpeur</p>
+            <p class=" px-4 text-secondary/60 inline-block ">Full stack</p>
+          </div>
+
+
+          <!--      Block de description -->
+          <div class="text-xl italic w-2/3 text-secondary/60 mt-12 self-center">
+            Description : "Lorem ipsum dolor sit ametiqua. on ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          </div>
         </div>
+
+
         <div class="self-center mt-10">
           <svg class="rotate-180 w-20 h-20 stroke-2 hover:animate-pulse"
                width="28" height="28" viewBox="0 0 28 28"  fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,12 +30,10 @@
 </template>
 
 <script>
-import VueRellax from "vue-rellax";
-
-
 import Navigation from "./Navigation.vue";
+
 export default {
-  name: "header",
+  name: "HeaderComponent",
   components:{
     Navigation
   }

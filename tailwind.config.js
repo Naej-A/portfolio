@@ -8,7 +8,8 @@ module.exports = {
         colors: {
             'primary': '#363732',
             "secondary": "#F7F7FF",
-            "action": "#EF5361"
+            "action": "#EF5361",
+            "myGreen": "#5C946E"
         },
         backgroundImage: {
             'projet-1-presentation': "url('public/Pac-man/choix_competence.png')",
