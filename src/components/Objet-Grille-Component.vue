@@ -1,7 +1,7 @@
 <template>
 
     <div class="bg-top relative  cursor-pointer ">
-      <img class="h-full object-cover " src="public/Pac-man/choix_competence.png" alt="">
+      <img class="h-full object-cover " src="/public/Pac-man/choix_competence.png" alt="">
 <!--      <div class="h-full  w-full object-cover-->
 <!--                  absolute top-0-->
 <!--                  bg-action/90-->
