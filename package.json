@@ -2,8 +2,8 @@
   "name": "site_portfolio",
   "version": "0.0.0",
   "scripts": {
-    "dev": "npm run dev",
-    "build": "npm run dev",
+    "dev": "vite dev",
+    "build": "vite dev",
     "preview": "npm run preview"
   },
   "dependencies": {
