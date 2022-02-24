@@ -11,7 +11,7 @@
   </div>
 
   <div v-else-if="loadProject2" id="2">
-    <p>projet 2</p>
+    <p>projet 2 </p>
     <input class="bg-primary text-secondary" value="click me to go to main page" @click="loadMainPage = true; loadProject1 = false ">
 
   </div>
@@ -24,10 +24,8 @@
 
 <script>
 import HeaderComponent from "./components/Header-Component.vue";
-import DescriptionProjet from "./components/Description-Projet.vue";
 import Footer from "./components/Footer.vue";
 import BodyComponent from "./components/Body-Component.vue";
-import BulleCompetence from  "./components/Bulle-Competence.vue";
 import DescriptionProjetMaintenance from "./components/Description-Projet-Maintenance.vue";
 
 export default {
