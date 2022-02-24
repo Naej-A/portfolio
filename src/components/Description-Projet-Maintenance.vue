@@ -72,11 +72,32 @@
         </div>
 
         <div class="my-20 self-center ">
-          <iframe class="self-end rounded-2xl shadow-lg scale-125  " src="https://itch.io/embed/1414591" height="167" width="552" frameborder="0"><a href="https://nosforice.itch.io/supa-vax-man">SUPA VAX-MAN by nosforice</a></iframe>
+          <iframe class="self-end rounded-2xl shadow-lg scale-125  " src="https://itch.io/embed/1414591" height="167" width="552"> <a href="https://nosforice.itch.io/supa-vax-man">SUPA VAX-MAN by nosforice</a> </iframe>
           <div class="text-center mt-8">
             <p> Une fois l'exécutable mis en place, j'ai publié ce jeu sur Itch.io.</p>
           </div>
         </div>
+
+        <div class="my-20 flex flex-col ">
+          <div class=" self-center scale-150 ">
+            <a class="  rounded-lg transition delay-100 hover:scale-125 hover:bg-primary/90" href="https://github.com/antolefou/Pac-Man-PjTut" target="_blank" >
+              <svg class="stroke-black transition delay-50  hover:scale-120   fill-action" width="40" height="40" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_34_10)">
+                  <path d="M16.2456 22.478V18.608C16.2831 18.1311 16.2187 17.6518 16.0566 17.2018C15.8945 16.7517 15.6385 16.3414 15.3056 15.998C18.4456 15.648 21.7456 14.458 21.7456 8.99797C21.7453 7.60179 21.2083 6.25916 20.2456 5.24796C20.7015 4.02647 20.6692 2.67631 20.1556 1.47796C20.1556 1.47796 18.9756 1.12796 16.2456 2.95797C13.9536 2.33679 11.5376 2.33679 9.24561 2.95797C6.51561 1.12796 5.33561 1.47796 5.33561 1.47796C4.82198 2.67631 4.78975 4.02647 5.24561 5.24796C4.27573 6.26666 3.73813 7.62143 3.74561 9.02797C3.74561 14.448 7.0456 15.638 10.1856 16.028C9.8566 16.3679 9.60287 16.7734 9.44091 17.2179C9.27896 17.6624 9.21241 18.136 9.24561 18.608V22.478M9.24561 19.478C4.24561 20.978 4.24561 16.978 2.24561 16.478L9.24561 19.478Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_34_10">
+                    <rect width="24" height="24" fill="white" transform="translate(0.245605 0.478027)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+
+          <p class="self-center mt-4"> Liens vers le repo git </p>
+
+        </div>
+
 
       </div>
 
@@ -117,8 +138,8 @@
         </div>
       </div>
     </div>
-
   </div>
+
 
 
   <Footer ></Footer>
@@ -133,6 +154,8 @@ export default {
   }
 }
 </script>
+
+
 
 <style scoped>
 

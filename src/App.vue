@@ -11,10 +11,8 @@ import Main from "./Main.vue";
 
 </script>
 
-
 <template id="app">
   <Main></Main>
-
 </template>
 
 
