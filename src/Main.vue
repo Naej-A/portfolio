@@ -5,9 +5,9 @@
     <Footer></Footer>
   </div>
 
-  <div v-else-if="loadProject1" id="1">
-    <p>projet 1</p>
-    <input class="bg-primary text-secondary" value="click me to go to main page" @click="loadMainPage = true; loadProject1 = false ">
+  <div class="bg-primary" v-else-if="loadProject1" id="1">
+    <input class="bg-primary cursor-pointer rounded-2xl border-secondary hover:border-action bg-secondary text-primary border-4 my-10 w-52 text-secondary" value="click me to go to main page " @click="loadMainPage = true; loadProject1 = false ">
+    <DescriptionProjetMaintenance class=""></DescriptionProjetMaintenance>
   </div>
 
   <div v-else-if="loadProject2" id="2">
@@ -28,13 +28,15 @@ import DescriptionProjet from "./components/Description-Projet.vue";
 import Footer from "./components/Footer.vue";
 import BodyComponent from "./components/Body-Component.vue";
 import BulleCompetence from  "./components/Bulle-Competence.vue";
+import DescriptionProjetMaintenance from "./components/Description-Projet-Maintenance.vue";
 
 export default {
   name: "Main",
   components:{
     HeaderComponent,
     BodyComponent,
-    Footer
+    Footer,
+    DescriptionProjetMaintenance
   },
   data : () => {
     return{

@@ -1,7 +1,6 @@
 <template>
-
     <div class="bg-top relative  cursor-pointer ">
-      <img class="h-full object-cover " src="/public/Pac-man/choix_competence.png" alt="">
+      <img class="h-full object-cover " :src="pathImg" alt="">
 <!--      <div class="h-full  w-full object-cover-->
 <!--                  absolute top-0-->
 <!--                  bg-action/90-->
@@ -21,7 +20,13 @@
 
 <script>
 export default {
-  name: "Objet-Grille-Component"
+  name: "Objet-Grille-Component",
+  props:{
+    pathImg:{
+      type:String,
+      default:"/public/default-image.jpg"
+    }
+  }
 }
 </script>
 
