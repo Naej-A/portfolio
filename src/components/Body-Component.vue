@@ -25,7 +25,7 @@
       <ObjetGrilleComponent
           @click="emitChangeComponentToShowEvent(3)"
           class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"
-          path-img="public/bot_discord/discord-bots-plus-joli.jpg"
+          path-img="/public/bot_discord/discord-bots-plus-joli.jpg"
       ></ObjetGrilleComponent>
 
     </div>
