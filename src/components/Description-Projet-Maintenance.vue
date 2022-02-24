@@ -61,11 +61,11 @@
           <div class="flex text-center  justify-around mt-8">
             <div class="">
               Architecture avant la refactorisation
-              <img class="h-96 self-center" src="public/Pac-man/archi_avant_refractor.png" alt="">
+              <img class="h-96 self-center" src="/public/Pac-man/archi_avant_refractor.png" alt="">
             </div>
             <div>
               Architecture après la refactorisation
-              <img class="h-96 self-center" src="public/Pac-man/archi_apres_refractor.png" alt="">
+              <img class="h-96 self-center" src="/public/Pac-man/archi_apres_refractor.png" alt="">
             </div>
           </div>
 
