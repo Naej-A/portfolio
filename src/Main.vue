@@ -5,14 +5,14 @@
     <Footer></Footer>
   </div>
 
-  <div class="bg-primary" v-else-if="loadProject1" id="1">
-    <input class="bg-primary cursor-pointer rounded-2xl border-secondary hover:border-action bg-secondary text-primary border-4 my-10 w-52 text-secondary" value="click me to go to main page " @click="loadMainPage = true; loadProject1 = false ">
+  <div v-else-if="loadProject1" class="bg-primary"  id="1">
+    <input class="bg-primary cursor-pointer rounded-2xl border-secondary hover:border-action bg-secondary text-primary border-4 my-10 w-52 " value=" retour à la page principale " @click="loadMainPage = true; loadProject1 = false ">
     <DescriptionProjetMaintenance class=""></DescriptionProjetMaintenance>
   </div>
 
-  <div v-else-if="loadProject2" id="2">
-    <p>projet 2 </p>
-    <input class="bg-primary text-secondary" value="click me to go to main page" @click="loadMainPage = true; loadProject1 = false ">
+  <div v-else-if="loadProject2"  class="bg-primary" id="2">
+    <input class="bg-primary cursor-pointer rounded-2xl border-secondary hover:border-action bg-secondary text-primary border-4 my-10 w-52 " value=" retour à la page principale " @click="loadMainPage = true; loadProject1 = false ">
+    <DescriptionProjetMaintenanceDiscord class=""></DescriptionProjetMaintenanceDiscord>
 
   </div>
 
@@ -20,6 +20,7 @@
     <p>projet 3</p>
     <input class="bg-primary text-secondary" value="click me to go to main page" @click="loadMainPage = true; loadProject1 = false ">
   </div>
+
 </template>
 
 <script>
@@ -27,6 +28,7 @@ import HeaderComponent from "./components/Header-Component.vue";
 import Footer from "./components/Footer.vue";
 import BodyComponent from "./components/Body-Component.vue";
 import DescriptionProjetMaintenance from "./components/Description-Projet-Maintenance.vue";
+import DescriptionProjetMaintenanceDiscord from "./components/Description-Projet-Maintenance-Discord.vue";
 
 export default {
   name: "Main",
@@ -34,7 +36,8 @@ export default {
     HeaderComponent,
     BodyComponent,
     Footer,
-    DescriptionProjetMaintenance
+    DescriptionProjetMaintenance,
+    DescriptionProjetMaintenanceDiscord
   },
   data : () => {
     return{
@@ -45,6 +48,9 @@ export default {
     }
   },
   methods:{
+    scrollToTop() {
+      window.scrollTo(0,0);
+    },
     changeComponentToShow(event){
       this.loadMainPage = false
       if (event.number === 1){
@@ -56,6 +62,7 @@ export default {
       else if (event.number === 3){
         this.loadProject3 = true
       }
+      this.scrollToTop();
     }
   }
 }
