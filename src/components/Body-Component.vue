@@ -17,11 +17,11 @@
                 self-center">
       <ObjetGrilleComponent
           @click="emitChangeComponentToShowEvent(1)"
-          path-img="/Pac-man/choix_competence.png"
+          path-img="choix_competence.png"
           class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"></ObjetGrilleComponent>
       <ObjetGrilleComponent
           @click="emitChangeComponentToShowEvent(2)"
-          path-img="/bot_discord/discord-bots-plus-joli.jpg"
+          path-img="discord-bots-plus-joli.jpg"
           class=" transition-all duration-300 grow-1 ease-in w-1/3 hover:w-full"></ObjetGrilleComponent>
       <ObjetGrilleComponent
           @click="emitChangeComponentToShowEvent(3)"
