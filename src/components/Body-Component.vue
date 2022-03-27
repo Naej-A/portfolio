@@ -1,16 +1,17 @@
 <template>
 
-<!--  <div class="min-h-[125vh] bg-primary">-->
-<!--&lt;!&ndash;    dans l'avenir j'aimerais faire une arbre avec mes compétences qui se dépli petit à petit&ndash;&gt;-->
-<!--    <h1 class=" text-secondary text-8xl">mes compétence</h1>-->
-<!--&lt;!&ndash;    <BulleCompetence nom-image="c_logo.png" ></BulleCompetence>&ndash;&gt;-->
-<!--  </div>-->
+  <div class="min-h-[125vh] bg-primary flex flex-col">
+<!--    dans l'avenir j'aimerais faire une arbre avec mes compétences qui se dépli petit à petit-->
+    <h1 class=" text-secondary text-8xl my-10">Mes compétences</h1>
+    <img class="center" src="/public/carte_mentale_competence.png" alt="">
+<!--    <BulleCompetence nom-image="c_logo.png" ></BulleCompetence>-->
+  </div>
 
   <div class="min-h-screen
               bg-primary
               flex  flex-col">
     <h1 class="self-center
-               text-secondary text-8xl">Mes projets</h1>
+               text-secondary text-8xl mt-10">Mes projets</h1>
     <div class="flex
                 min-h-screen
                 m-16
