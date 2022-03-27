@@ -3,7 +3,7 @@
   <div class="min-h-[125vh] bg-primary flex flex-col">
 <!--    dans l'avenir j'aimerais faire une arbre avec mes compétences qui se dépli petit à petit-->
     <h1 class=" text-secondary text-8xl my-10">Mes compétences</h1>
-    <img class="center" src="/carte_mentale_competence.png" alt="">
+    <img class="center" src="/public/carte_mentale_competence.png" alt="">
 <!--    <BulleCompetence nom-image="c_logo.png" ></BulleCompetence>-->
   </div>
 
